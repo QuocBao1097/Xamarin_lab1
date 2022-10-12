@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Handling The Control"
+             x:Class="lab01.HandingTheControl">
+    <ContentPage.Content>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Label 
+                Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
+                Text="Personal Information"
+                TextColor="red"
+                FontSize="35"
+                FontAttributes="Bold"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                ></Label>
+            <Label 
+                Text="Name:" Grid.Row="1" Grid.Column="0" FontSize="20" VerticalOptions="Center" 
+             ></Label>
+            
+            <Entry Placeholder="Enter your name" Keyboard="Text"
+                   FontSize="20" VerticalOptions="CenterAndExpand" x:Name="entUsrName"
+                   Grid.Column="1" Grid.Row="1"
+             ></Entry>
+
+            <Label 
+                Text="Email:" Grid.Row="2" Grid.Column="0" FontSize="20" VerticalOptions="Center" 
+             ></Label>
+
+            <Entry Placeholder="Enter your email" Keyboard="Text"
+                   FontSize="20" VerticalOptions="CenterAndExpand" x:Name="entUsrEmail"
+                   Grid.Column="1" Grid.Row="2"
+             ></Entry>
+            
+            <Label 
+                Text="Phone:" Grid.Row="3" Grid.Column="0" FontSize="20" VerticalOptions="Center" 
+             ></Label>
+
+            <Entry Placeholder="Enter your phone" Keyboard="Text"
+                   FontSize="20" VerticalOptions="CenterAndExpand" x:Name="entUsrPhone"
+                   Grid.Column="1" Grid.Row="3"
+             ></Entry>
+
+            <Label 
+                Text="Birthday:" Grid.Row="4" Grid.Column="0" FontSize="20" VerticalOptions="Center" 
+             ></Label>
+            <DatePicker Grid.Column="1" Grid.Row="4" x:Name="dpkUsrDOB" FontSize="20" Format="dd/MM/yyyy" VerticalOptions="Center" ></DatePicker>
+
+            <Label 
+                Text="Male?:" Grid.Row="5" Grid.Column="0" FontSize="20" VerticalOptions="Center" 
+             ></Label>
+            <Switch x:Name="sex" IsToggled="False"  Grid.Column="1" Grid.Row="5" HorizontalOptions="Start"></Switch>
+
+            <Button x:Name="btnSubmit"  Grid.Column="0" Grid.Row="6" Text="Submit" Margin="5" HorizontalOptions="End" VerticalOptions="Center" Clicked="btnSubmit_Clicked_1" ></Button>
+            <Button x:Name="btnCancel"  Grid.Column="1" Grid.Row="6" Text="Cancel" Margin="5" HorizontalOptions="Start" VerticalOptions="Center" Clicked="btnCancel_Clicked_1"></Button>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

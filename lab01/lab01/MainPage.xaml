@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Màn Hình Chính: Quốc Bảo"
+             x:Class="lab01.MainPage">
+
+    <StackLayout BackgroundColor="gray" Spacing="20">
+        <Button
+            x:Name="Cmdstacklayout" 
+            Text="Stacklayout"
+            Clicked="Cmdstacklayout_Clicked"
+            FontSize="20"
+            BackgroundColor="Orange"
+            TextColor="White"
+         ></Button>
+
+        <Button
+            x:Name="Cmdgridlayout1" 
+            Text="Gridlayout 1"
+            FontSize="20"
+            Clicked="Cmdgridlayout1_Clicked"
+            BackgroundColor="Orange"
+            TextColor="White"
+         ></Button>
+        
+        <Button
+            x:Name="Cmdgridlayout2" 
+            Text="Gridlayout 2"
+            FontSize="20"
+            BackgroundColor="Orange"
+            Clicked="Cmdgridlayout2_Clicked"
+            TextColor="White"
+         ></Button>
+
+        <Button
+            x:Name="basicControls" 
+            Text="Basic Controls"
+            FontSize="20"
+            BackgroundColor="Orange"
+            Clicked="basicControls_Clicked"
+            TextColor="White"
+         ></Button>
+        
+        <Button
+            x:Name="hadingTheControl" 
+            Text="Handing The Control"
+            FontSize="20"
+            BackgroundColor="Orange"
+            Clicked="hadingTheControl_Clicked"
+            TextColor="White"
+         ></Button>
+
+        <Button
+            x:Name="maytinh" 
+            Text="Calculator"
+            FontSize="20"
+            BackgroundColor="Orange"
+            Clicked="maytinh_Clicked"
+            TextColor="White"
+         ></Button>
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "c+m0kB32ToYPo4sZIk9w15ODQGMkrnfsiKNOOUTPs1EFDk4HEIPJlMyczyVd9C7XcGhmYjBasgOtE83H6RK1Xg==",
+  "success": true,
+  "projectFilePath": "D:\\UIT\\#Xamarin\\Thực hành\\Lab 1\\lab01\\lab01\\lab01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\QUOC BAO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\QUOC BAO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\QUOC BAO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\QUOC BAO\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\QUOC BAO\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
